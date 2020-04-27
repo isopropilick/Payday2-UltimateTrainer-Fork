@@ -1,0 +1,253 @@
+{
+    "name": "Ultimate Trainer 4",
+    "description": "Ultimate Trainer 4",
+    "author": "ChildOfSorrow",
+	"contact": "ChildOfSorrow",
+    "version": "4.0",
+    "blt_version": 2,
+    "color": "255 0 0",
+	"image" : "logo.png",
+    "keybinds": [
+        {
+            "keybind_id": "rzkldcdw",
+            "name": "main menu",
+            "description": "open the main menu",
+            "script_path": "keybinds/menus/main.lua",
+            "run_in_menu": true,
+            "run_in_game": true,
+            "localized": false
+        },
+        {
+            "keybind_id": "gniavjob",
+            "name": "player menu shortcut",
+            "description": "open the player menu",
+            "script_path": "keybinds/menus/player.lua",
+            "run_in_menu": true,
+            "run_in_game": true,
+            "localized": false
+        },
+        {
+            "keybind_id": "idewbnzm",
+            "name": "game menu shortcut",
+            "description": "open the game menu",
+            "script_path": "keybinds/menus/game.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": false
+        },
+        {
+            "keybind_id": "dokqyfnc",
+            "name": "time menu shortcut",
+            "description": "open the time menu",
+            "script_path": "keybinds/menus/time.lua",
+            "run_in_menu": true,
+            "run_in_game": true,
+            "localized": false
+        },
+        {
+            "keybind_id": "kitzbaen",
+            "name": "spawn menu shortcut",
+            "description": "open the spawn menu",
+            "script_path": "keybinds/menus/spawn.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": false
+        },
+        {
+            "keybind_id": "nnebazpa",
+            "name": "construction menu shortcut",
+            "description": "open the construction menu",
+            "script_path": "keybinds/menus/construction.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": false
+        },
+        {
+            "keybind_id": "jvanfgdf",
+            "name": "spawn previous",
+            "description": "select previous unit",
+            "script_path": "keybinds/spawn/previous.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": false
+        },
+        {
+            "keybind_id": "hbmvidqb",
+            "name": "spawn next",
+            "description": "select next unit",
+            "script_path": "keybinds/spawn/next.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": false
+        },
+        {
+            "keybind_id": "knsfkahu",
+            "name": "spawn place",
+            "description": "spawn selected unit",
+            "script_path": "keybinds/spawn/place.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": false
+        },
+        {
+            "keybind_id": "yckojnfm",
+            "name": "construction copy",
+            "description": "copy unit on crosshair",
+            "script_path": "keybinds/construction/copy.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": false
+        },
+        {
+            "keybind_id": "dvxncrfn",
+            "name": "construction paste",
+            "description": "paste copied to crosshair",
+            "script_path": "keybinds/construction/paste.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": false
+        },
+        {
+            "keybind_id": "wifxhadf",
+            "name": "construction remove",
+            "description": "remove unit on crosshair",
+            "script_path": "keybinds/construction/remove.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": false
+        },
+        {
+            "keybind_id": "jhihkaaa",
+            "name": "start",
+            "description": "start the game",
+            "script_path": "keybinds/start.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": false
+        },
+        {
+            "keybind_id": "fznmdixh",
+            "name": "restart",
+            "description": "restart the game",
+            "script_path": "keybinds/restart.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": false
+        },
+        {
+            "keybind_id": "npjcvoux",
+            "name": "finish",
+            "description": "finish the game",
+            "script_path": "keybinds/finish.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": false
+        },
+        {
+            "keybind_id": "gennlucd",
+            "name": "teleportation",
+            "description": "teleport to crosshair",
+            "script_path": "keybinds/teleportation.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": false
+        },
+        {
+            "keybind_id": "couytxqv",
+            "name": "replenish",
+            "description": "replenish health and ammo",
+            "script_path": "keybinds/replenish.lua",
+            "run_in_menu": false,
+            "run_in_game": true,
+            "localized": false
+        }
+    ],
+    "persist_scripts": [
+        {
+            "global": "acyuxuxn",
+            "script_path": "classes/UT.lua"
+        },
+        {
+            "global": "zgozpaqh",
+            "script_path": "classes/Tables.lua"
+        },
+        {
+            "global": "lhmdfatt",
+            "script_path": "classes/Player.lua"
+        },
+        {
+            "global": "wlysetvz",
+            "script_path": "classes/Game.lua"
+        },
+        {
+            "global": "geqdgsva",
+            "script_path": "classes/Time.lua"
+        },
+        {
+            "global": "juxklbhh",
+            "script_path": "classes/Spawn.lua"
+        },
+        {
+            "global": "ooxjgbwc",
+            "script_path": "classes/Construction.lua"
+        },
+        {
+            "global": "wkauhozi",
+            "script_path": "persistent/game.lua"
+        },
+        {
+            "global": "xznnwbxz",
+            "script_path": "persistent/time.lua"
+        },
+        {
+            "global": "wjmxyheq",
+            "script_path": "persistent/construction.lua"
+        },
+        {
+            "global": "nohpdlak",
+            "script_path": "persistent/initialization.lua"
+        },
+        {
+            "global": "eoxnfubi",
+            "script_path": "menus/about.lua"
+        },
+        {
+            "global": "appeunbs",
+            "script_path": "menus/player.lua"
+        },
+        {
+            "global": "heswaiqm",
+            "script_path": "menus/game.lua"
+        },
+        {
+            "global": "rjdjdfwx",
+            "script_path": "menus/time.lua"
+        },
+        {
+            "global": "rhfuusme",
+            "script_path": "menus/spawn.lua"
+        },
+        {
+            "global": "eppoxrdv",
+            "script_path": "menus/construction.lua"
+        },
+        {
+            "global": "oedavnnz",
+            "script_path": "menus/main.lua"
+        }
+    ],
+    "hooks": [
+        {
+            "hook_id" : "lib/setups/gamesetup",
+            "script_path" : "hooks/gamesetup.lua"
+        },
+        {
+            "hook_id" : "lib/managers/missionmanager",
+            "script_path" : "hooks/missionmanager.lua"
+        },
+        {
+            "hook_id" : "lib/states/ingamewaitingforplayers",
+            "script_path" : "hooks/ingamewaitingforplayers.lua"
+        }
+    ]
+}
